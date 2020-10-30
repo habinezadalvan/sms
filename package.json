@@ -1,0 +1,29 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "This app send sms directly from the website",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node server/index.js",
+    "dev": "nodemon --exec babel-node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habinezadalvan/sms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habinezadalvan/sms/issues"
+  },
+  "homepage": "https://github.com/habinezadalvan/sms#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "twilio": "^3.50.0"
+  }
+}
