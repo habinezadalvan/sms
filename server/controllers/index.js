@@ -9,13 +9,15 @@ const client = require('twilio')(accountSid, authToken);
 class sms {
     static async sms(req, res) {
         try{
-        const {phone, message} = req.body;
+        const {to, from,  body} = req.body;
+
+        console.log('message', body)
 
     client.messages 
       .create({  
-         from: '+12013836815',       
-         to: phone,
-         body: message
+         from: from,       
+         to: to,
+         body: body
        }) 
       .then(message => res.status(201).json({
           status: 201,

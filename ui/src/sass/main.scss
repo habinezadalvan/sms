@@ -1,0 +1,24 @@
+@import './abstracts/variables';
+
+@import './base/base';
+@import './abstracts/mixin';
+
+
+@import './base/animation';
+@import './base/typography';
+@import './base/utilities';
+
+@import './components/navSms';
+@import './components/donate';
+@import './components/homeSms';
+@import './components/common/common-section';
+@import './components/common/Donate-like-btn';
+@import './components/common/primary-sidebar-li';
+@import './components/common/empty-side-bar';
+@import './components/common/normal-card';
+@import './components/socialIframes';
+
+
+
+
+@import './pages/home';

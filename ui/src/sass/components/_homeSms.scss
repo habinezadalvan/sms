@@ -1,0 +1,84 @@
+.home{
+    display: flex;
+    .left{
+        background: #eee;
+        height: 100vh;
+flex-basis: 20%;
+        ul{
+            list-style: none;
+            li{
+                text-decoration: none;
+                .link-div{
+                    font-size: 1.6rem;
+                    display: flex;
+                    align-items: center;
+                    padding: 1rem;
+
+                    .name{
+                        margin-left: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    .middle {
+        padding: 4rem;
+        flex-basis: 50%;
+        font-size: 1.6rem;
+        font-family: $font-family;
+        .form-div{
+            margin: 4rem auto;
+            width: 80%;
+
+            .form{
+                .input-field{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    label {
+                        flex-basis: 20%;
+                    }
+                    input{
+                        height: 4rem;
+                        width: 100%;
+                        padding: 1rem;
+                        flex-basis: 80%;
+
+                        margin-bottom: 2rem;
+
+                    }
+                    .textarea{
+                        height: 12rem;
+                        width: 100%;
+                        flex-basis: 80%;
+                        margin-bottom: 4rem;
+
+                    }
+
+
+                }
+
+
+                .button-div{
+                    float: right;
+
+                    button {
+                        height: 4rem;
+                        width: 10rem;
+                        background: #6ABC34;
+                        color: white;
+                        border: none;
+
+                    }
+
+                }
+            }
+
+        }
+
+    }
+    .right{
+        flex-basis: 30%;
+
+    }
+}

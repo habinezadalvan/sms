@@ -1,0 +1,86 @@
+@keyframes animateDonateBtn {
+    0%{
+        background-color: $blue-button;
+    }
+    30%{
+        background-color: $yellowish-hover-color;
+    }
+    60%{
+        background-color: $green-hover-color;
+    }
+    90%{
+        background-color: $purple-hover-color;
+    }
+    100%{
+        background-color: $blue-button;
+    }
+    
+}
+
+@keyframes animateOtherBtns {
+    
+    0%{
+        background-color: $blue-button;
+        color: $white-color;
+    }
+    30%{
+        background-color: $yellowish-hover-color;
+        color: $white-color;
+
+    }
+    60%{
+        background-color: $green-hover-color;
+        color: $white-color;
+
+    }
+    100%{
+        background-color: $purple-hover-color;
+        color: $white-color;
+
+    }
+  
+    
+}
+
+@keyframes showLinks {
+    
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: .3;
+
+    }
+    60%{
+        opacity: .6;
+
+    }
+    100%{
+        opacity: 1;
+
+    }
+  
+    
+}
+
+@keyframes moveInLeft{
+    0%{
+       
+        transform: translateX(-95%);
+    }
+    100%{
+       
+        transform: translate(0);
+    }
+  }
+
+  @keyframes rotateIcon{
+    0%{
+       
+        transform: rotate(0deg)
+    }
+    100%{
+       
+        transform: rotate(180deg);
+    }
+  }

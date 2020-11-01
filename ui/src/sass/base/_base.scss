@@ -1,0 +1,39 @@
+html{
+    // this defines what 1rem is
+    font-size: 62.5%; // here 1rem equals to 10px instead of default 16px
+    // @include responsive(lg-desktop){
+    //     font-size: 75%; // 1 rem = 12px
+    // }
+
+    // @include responsive(tab-land){
+    //     font-size: 56.25%; // 1 rem = 9px
+    // }
+
+    // @include responsive(tab-port){
+    //     font-size: 50%; // 1 rem = 8px
+    // }
+    // @include responsive(phone){
+    //     font-size: 37.5%; // 1 rem = 6px
+    // }
+
+    // scroll-behavior: smooth;
+    min-height: 100%;
+}
+
+body{
+    box-sizing: border-box;
+    min-height: 100%;
+    font-family: $font-family;
+
+    p{
+      color: rgba(0, 0, 0, 0.623);
+    }
+}
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

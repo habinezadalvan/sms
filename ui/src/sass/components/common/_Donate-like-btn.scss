@@ -1,0 +1,80 @@
+.donate-like-btn{
+    border: none;
+    @include positionContent(center, center);
+    // height: 3rem;
+    // width: 8rem;
+    // padding: .625rem .875rem .5625rem;
+    outline: none;
+    // text-transform: uppercase;
+    // font-weight: bold;
+    cursor: pointer;
+    // border-radius: .5rem;
+    // background: $blue-button;
+
+    // display: block;
+    background: #29abe2;
+    color: #fff;
+    display: inline-block;
+    // padding: 10px 14px 9px;
+    padding: 1rem 1.3rem;
+    font-size: 15px;
+    // font-size: .9375rem;
+    // letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: $font-family;
+    font-weight: 600;
+    // border-radius: 6px;
+    border-radius: .5rem;
+    // margin: 5px 5px 0 0;
+    margin: .3125rem .3125rem 0 0;
+    transition: .5s all;
+    letter-spacing: .2rem;
+    &:hover{
+        animation: animateDonateBtn 1s ease-in-out;
+    }
+
+}
+
+.other-btns{
+    @extend .donate-like-btn;
+    background-color: $white-color;
+    color: $dark-color;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: .5rem;
+
+    &:hover{
+        animation: animateOtherBtns 1s ease-in-out;
+        background-color: $purple-hover-color;
+    color: $white-color;
+
+    }
+}
+
+.donate-dark-btn {
+    @extend .other-btns;
+    background-color: $dark-color;
+    color: $white-color;
+    padding: 1.2rem;
+
+}
+
+.signup-btn {
+    @extend .other-btns;
+    background-color: $light-grey ;
+    color: $dark-color;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.donate-purple-btn {
+    @extend .donate-like-btn;
+    background-color: $purple-hover-color;
+    width: 45%;
+    font-weight: 400;
+    padding: 1.5rem 1.3rem;
+    &:hover{
+        animation: none;
+        background: $purple-color;
+    }
+}

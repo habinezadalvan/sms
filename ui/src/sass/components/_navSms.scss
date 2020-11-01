@@ -1,0 +1,63 @@
+.nav{
+    display: flex;
+    font-size: 1.6rem;
+    padding: 1rem;
+    background-color: #025C87;
+    .logo-div{
+
+ flex-basis: 50%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+    }
+    .right-content{
+    display: flex;
+    .empty-right{
+        flex-basis: 50%;
+    }
+
+    ul{
+
+        
+        list-style: none;
+        display: flex;
+        flex-basis: 50%;
+        justify-content: space-evenly;
+        align-items: center;
+        li{
+            justify-content: space-evenly;
+            align-items: center;
+
+            .link{
+                color: white;
+                text-decoration: none;
+
+            }
+            button {
+                height: 4rem;
+                width: 100%;
+                justify-content: center;
+                text-align: center;
+                padding: 1rem;
+                background: #2B85B8;
+                border: none;
+                outline: none;
+                color: white;
+
+
+            }
+            .user{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            color: white;
+            }
+        }
+
+    }
+
+        flex-basis: 50%;
+
+    }
+}
